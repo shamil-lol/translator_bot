@@ -10,7 +10,8 @@ async def inline_query (client, m):
       en = Translator().translate(dest = "en", text = text).text
       am = Translator().translate(dest = "am", text = text).text
       ar = Translator().translate(dest = "ar", text = text).text
-      es = Translator().translate(dest = "es", text = text).text                                           fr = Translator().translate(dest = "fr", text = text).text
+      es = Translator().translate(dest = "es", text = text).text                                           
+      fr = Translator().translate(dest = "fr", text = text).text
     except Exception:
       pass
     try:
