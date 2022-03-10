@@ -12,6 +12,7 @@ async def inline_query (client, m):
       ar = Translator().translate(dest = "ar", text = text).text
       es = Translator().translate(dest = "es", text = text).text                                           
       fr = Translator().translate(dest = "fr", text = text).text
+      tr = Translator().translate(dest = "tr", text = text).text
     except Exception:
       pass
     try:
@@ -35,6 +36,10 @@ async def inline_query (client, m):
       InlineQueryResultArticle(
       "FRENCH",
       InputTextMessageContent(fr)
+      ),
+      InlineQueryResultArticle(
+      "TURKISH",
+      InputTextMessageContent(tr)
       )
       ])
     except Exception as e:
