@@ -7,7 +7,7 @@ from googletrans import Translator
 async def inline_query (client, m):
     text = m.query
     if m.chat_type == "sender":
-      m.answer(results = [], switch_pm_text = "You Can't Use Me In My Chat, Please Switch To Another Chat", switch_pm_parameter = "nop")
+      await m.answer(results = [], switch_pm_text = "You Can't Use Me In My Chat, Please Switch To Another Chat", switch_pm_parameter = "nop")
     else:
       try:
         en = Translator().translate(dest = "en", text = text).text
