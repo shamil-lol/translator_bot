@@ -5,7 +5,7 @@ from utils.deeplink import deep_links
 buttons = InlineKeyboardMarkup([
 [InlineKeyboardButton(text = "USE INLINE MODE", switch_inline_query_current_chat = "")],
 [InlineKeyboardButton(text = "JOIN OUR GROUP", url = "https://t.me/Ethiopians_project"),
-InlineKeyboardButton(text = "CONTACT OWNER", url = "https://t.me/shamil01_bot")]
+InlineKeyboardButton(text = "CONTACT OWNER", url = "https://t.me/sham_i_l1")]
 ])
 @bot.on_message(filters.private & filters.command('start'))
 async def start (client, m):
