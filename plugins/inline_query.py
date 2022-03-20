@@ -22,27 +22,33 @@ async def inline_query (client, m):
         await m.answer(results = [
         InlineQueryResultArticle(
         "ENGLISH",
-        InputTextMessageContent(en)
+        InputTextMessageContent(en),
+        description = en
         ),
         InlineQueryResultArticle(
         "AMHARIC",
-        InputTextMessageContent(am)
+        InputTextMessageContent(am),
+        description = am
         ),
         InlineQueryResultArticle(
         "ARABIC",
-        InputTextMessageContent(ar)
+        InputTextMessageContent(ar),
+        description = ar
         ),
         InlineQueryResultArticle(
         "SPANISH",
-        InputTextMessageContent(es)
+        InputTextMessageContent(es),
+        description = es
         ),
         InlineQueryResultArticle(
         "FRENCH",
-        InputTextMessageContent(fr)
+        InputTextMessageContent(fr),
+        description = fr
         ),
         InlineQueryResultArticle(
         "TURKISH",
-        InputTextMessageContent(tr)
+        InputTextMessageContent(tr),
+        description = tr
         )
         ])
       except Exception as e:
