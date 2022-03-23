@@ -12,7 +12,7 @@ async def callback_query (client, m):
     if m.message.text == translate(m.message.text, m.data):
       await m.answer(f"{m.message.text} is {m.message.text}")
     elif m.data in available_langs:
-      await m.answer(f"{m.message.text}   →   {translate(m.message.text, m.data)}", show_alert = True)
+      await m.reply_text(f"{m.message.text}   →   {translate(m.message.text, m.data)}")
     else:
       await m.answer("not availabe")
   except Exception as e:
