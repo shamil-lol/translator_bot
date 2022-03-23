@@ -1,0 +1,18 @@
+{
+  "name": "TransBot",
+  "description": "a language translator bot for telegram",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Bot Token",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Api Id",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Api Hash",
+      "required": true
+    }
+  }
+}
