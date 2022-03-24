@@ -1,4 +1,0 @@
-icon: https://apps.okteto.com/movies/icon.png
-deploy:
-  - pip install -r requirements.txt
-  - python bot.py
