@@ -4,7 +4,7 @@ docs = """
 ```
 // npm i axios
 const axios = require("axios")
-const url = "https://translatorapi-production.up.railway.app/"
+const url = "https://transapiv3.herokuapp.com"
 // data must looks like
 const data = {
   text: "thank you",
@@ -20,7 +20,7 @@ axios.post(url, data).then((data) => {
 ```
 # pip install requests
 import requests
-url = "https://translatorapi-production.up.railway.app/"
+url = "https://transapiv3.herokuapp.com"
 data = {
   "text": "thank you",
   "lang": "es"
