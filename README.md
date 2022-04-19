@@ -13,3 +13,8 @@ __now open source__
 <br>
 [*obtain bot token*](https://t.me/botfather)
 
+## support
+
+*if you have any doubt on editing this repo, then msg me on [telegram](https://t.me/im_shamil)*
+
+**NO MORE SUPPORT ON THIS BOT ONCE AGAIN**
